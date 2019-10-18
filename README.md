@@ -28,7 +28,7 @@ GIF created with [RecordIt](http://recordit.co/E0HkXA7DLF).
 
 Here's a screenshot of implemented user stories on real iPhone 7:
 
-<img src='../flix.jpeg'>
+<img src='https://github.com/lfbox7/Flix/blob/master/flix.jpeg'>
 
 ### Notes
 Describe any challenges encountered while building the app.
