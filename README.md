@@ -22,13 +22,13 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthough GIF
 Here's a walkthrough of implemented user stories:
 
-<img src='http://recordit.co/E0HkXA7DLF.gif'>
+<img src='http://recordit.co/ZVhtKAJyxj.gif' width=250>
 
 GIF created with [RecordIt](http://recordit.co/E0HkXA7DLF).
 
 Here's a screenshot of implemented user stories on real iPhone 7:
 
-<img src='https://github.com/lfbox7/Flix/blob/master/flix.jpeg'>
+<img src='https://github.com/lfbox7/Flix/blob/master/flix.jpeg' width=250>
 
 ### Notes
 Describe any challenges encountered while building the app.
