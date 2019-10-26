@@ -39,14 +39,21 @@ class MoviesDetailViewController: UIViewController {
         backdropView.af_setImage(withURL: backdropUrl!)
     }
     
+    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
+        let vc: MoviesTrailerViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "vc") as! MoviesTrailerViewController
+        self.present(vc, animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
+    }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        
         // Pass the selected object to the new view controller.
+        let MoviesTrailerViewController = segue.destination as! MoviesTrailerViewController
+        MoviesTrailerViewController.movie = movie
     }
-    */
 }
